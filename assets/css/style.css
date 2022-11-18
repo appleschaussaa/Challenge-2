@@ -1,10 +1,12 @@
 *{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
+  position: relative;
   display: flex;
   flex-direction: column;
+  position: absolute;
   line-height: 1.5;
 }
 
@@ -27,8 +29,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
-  /*padding-top: 10px;
-  padding-bottom: 10px;*/
   padding: 10px;
   margin-right: 20px;
 }
@@ -78,23 +78,51 @@ h3 {
   flex-wrap: wrap;
   height: 150px;
   width: 375px;
-  border: 2px solid black;
-  background-color: rgb(136, 0, 255);
-  color: aliceblue;
+  border: 3px solid rgb(51, 0, 111);
+  color:rgb(235, 176, 50);
+  font-size: larger;
+  font-weight: bold;
   margin-left: 20px;
-  /* margin-right: 80px; */
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .card .Surf-Report {
-
+  background-image: url("../css/images/beautiful-waves.jpg");
   width: 820px;
 }
 
+.card .LED-Wall {
+  background-image: url("../css/images/LED-blocks.jpg");
+  background-size: cover ;
+}
+
+.card .Calculator {
+  background-image: url("../css/images/Calculator.jpg");
+  background-size: cover;
+}
+
+.card .Pastel-Puzzle {
+  background-image: url("../css/images/pastel-colors.jpg");
+  color:rgb(51, 0, 111);
+}
+
+.card .Run-Buddy {
+  background-image: url("../css/images/Run-Buddy-Shoes.jpg");
+  background-size: cover;
+}
+
+.card:hover .Surf-Report {
+  filter: blur(5px);
+}
+
+.card .Surf-Report:hover {
+  filter: blur(0);
+}
+
 h2, h3, h4 {
-  color: blue;
+  color:rgb(51, 0, 111);
   font-size: 300%;
   margin-left: 150px;
   text-align: right;

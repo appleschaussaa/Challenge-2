@@ -1,4 +1,4 @@
-# Challenge-2
+# First-Portfolio
 
 ## Table of contents
 ​
@@ -34,7 +34,7 @@ Users should be able to:
 
 ### What I learned
 ​
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. Honestly thought I had a handle on everything until the night before it was due and things started falling apart. Will focus on the small details of the acceptance criteria moving forward.
 
 ### Continued development
 
